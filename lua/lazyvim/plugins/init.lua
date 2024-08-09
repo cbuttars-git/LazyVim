@@ -12,5 +12,5 @@ require("lazyvim.config").init()
 
 return {
   { "folke/lazy.nvim", version = "*" },
-  { "LazyVim/LazyVim", priority = 10000, lazy = false, opts = {}, cond = true, version = "*" },
+  { "cbuttars-git/lazyvim", priority = 10000, branch = "v1.0.0", lazy = false, opts = {}, cond = true, version = "*" },
 }
